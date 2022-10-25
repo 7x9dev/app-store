@@ -69,16 +69,17 @@ a:hover {
    border-radius: 30px;
    display: flex;
    align-items: center;
-   padding: 16px;
+   padding: 10px;
 }
 .input-field input {
    flex: 1;
-   height: 20px;
+   height: 40px;
    border: none;
    outline: none;
    font-size: 18px;
    font-weight: 400;
    padding-left: 10px;
+   padding-right: 10px;
    background-color: transparent;
 }
 .apps {
@@ -92,18 +93,12 @@ footer {
    margin-top: 45px;
 }
 .webLink {
-   color: #fff;
+   color: var(--link-hover) !important;
    text-decoration: none;
-}
-.webLink:hover {
-   color: #fff;
 }
 .authorLink {
-   color: var(--link-hover);
+   color: var(--link-hover) !important;
    text-decoration: none;
-}
-.authorLink:hover {
-   color: var(--link-hover);
 }
 @media all and (max-width: 1024px) {
    img {
@@ -121,6 +116,9 @@ footer {
    }
    h2 {
       font-size: 30px !important;
+   }
+   img {
+      width: 130px;
    }
    #app {
       display: flex;
