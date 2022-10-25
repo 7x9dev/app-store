@@ -85,3 +85,59 @@ a:hover {
    background-color: var(--complementary-color);
    border-radius: 40px;
 }
+footer {
+   color: #fff;
+   font-size: 16px;
+   text-align: center !important;
+   margin-top: 45px;
+}
+.webLink {
+   color: #fff;
+   text-decoration: none;
+}
+.webLink:hover {
+   color: #fff;
+}
+.authorLink {
+   color: var(--link-hover);
+   text-decoration: none;
+}
+.authorLink:hover {
+   color: var(--link-hover);
+}
+@media all and (max-width: 1024px) {
+   img {
+      width: 120px;
+   }
+}
+@media all and (max-width: 820px) {
+   h2 {
+      font-size: 36px !important;
+   }
+}
+@media all and (max-width: 540px) {
+   h1 {
+      font-size: 48px !important;
+   }
+   h2 {
+      font-size: 30px !important;
+   }
+   #app {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+}
+@media all and (max-width: 280px) {
+   h1 {
+      font-size: 40px !important;
+   }
+   h2 {
+      font-size: 24px !important;
+   }
+   #search {
+      width: 260px !important;
+   }
+}
